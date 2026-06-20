@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add('js');</script>
+<title>Apoorv Chaudhary — SEO &amp; Organic Growth Manager</title>
+<meta name="description" content="SEO &amp; Organic Growth Manager with 6+ years across SaaS, IT services, and B2B. Technical SEO, content strategy, and AI search (AEO/GEO). Scaled organic traffic 3X and Domain Authority 18 to 40.">
+<meta name="author" content="Apoorv Chaudhary">
+<link rel="canonical" href="https://example.com/">
+
+<!-- Open Graph / social preview -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Apoorv Chaudhary — SEO &amp; Organic Growth Manager">
+<meta property="og:description" content="6+ years in SEO and organic growth. Technical SEO, content strategy, and AI search (AEO/GEO). Scaled organic traffic 3X.">
+<meta property="og:url" content="https://example.com/">
+<meta name="twitter:card" content="summary">
+
+<!-- Favicon (inline) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230E1E33'/><text x='50' y='68' font-family='monospace' font-size='52' fill='%2310B981' text-anchor='middle' font-weight='700'>A</text></svg>">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- Structured data: Person (good SEO practice + AEO/GEO ready) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Apoorv Chaudhary",
+  "jobTitle": "SEO & Organic Growth Manager",
+  "email": "apoorv6000@gmail.com",
+  "telephone": "+91-9873883553",
+  "url": "https://www.linkedin.com/in/apoorvchaudhary",
+  "address": { "@type": "PostalAddress", "addressLocality": "New Delhi", "addressCountry": "IN" },
+  "sameAs": ["https://www.linkedin.com/in/apoorvchaudhary"],
+  "knowsAbout": ["Technical SEO", "Organic Growth", "Content Strategy", "Answer Engine Optimization", "Generative Engine Optimization", "Google Analytics 4", "Keyword Research", "Link Building"],
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Krishna Engineering College, Ghaziabad" }
+}
+</script>
+
+<style>
+:root{
+  --bg:#FBFAF7; --bg-alt:#F3F0E9;
+  --ink:#0E1E33; --ink-soft:#3B4A5E; --muted:#6B7888;
+  --line:#E3DFD5; --line-strong:#D6D1C4;
+  --accent:#0E9F6E; --accent-bright:#10B981;
+  --on-dark:#ECEFF3; --on-dark-soft:#9DAFC2; --dark-line:#23364F;
+  --font-display:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;
+  --font-body:'Inter',ui-sans-serif,system-ui,sans-serif;
+  --font-mono:'JetBrains Mono',ui-monospace,monospace;
+  --maxw:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font-body); color:var(--ink); background:var(--bg);
+  line-height:1.6; -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.eyebrow{
+  font-family:var(--font-mono); font-size:.72rem; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--accent); font-weight:500;
+}
+
+/* ---------- NAV ---------- */
+.nav{
+  position:sticky; top:0; z-index:50; background:rgba(251,250,247,.82);
+  backdrop-filter:blur(10px); border-bottom:1px solid var(--line);
+}
+.nav-inner{display:flex; align-items:center; justify-content:space-between; height:66px}
+.brand{font-family:var(--font-mono); font-weight:700; font-size:1rem; letter-spacing:-.01em}
+.brand b{color:var(--accent)}
+.nav-links{display:flex; align-items:center; gap:30px}
+.nav-links a{font-size:.92rem; color:var(--ink-soft); font-weight:500; transition:color .2s}
+.nav-links a:hover{color:var(--ink)}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; font-family:var(--font-body);
+  font-weight:600; font-size:.9rem; padding:11px 20px; border-radius:9px;
+  border:1.5px solid transparent; cursor:pointer; transition:transform .15s, background .2s, border-color .2s, color .2s;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--ink); color:var(--on-dark)}
+.btn-primary:hover{background:#15294a}
+.btn-accent{background:var(--accent); color:#fff}
+.btn-accent:hover{background:var(--accent-bright)}
+.btn-ghost{background:transparent; color:var(--ink); border-color:var(--line-strong)}
+.btn-ghost:hover{border-color:var(--ink)}
+.btn-sm{padding:9px 16px; font-size:.85rem}
+.nav-toggle{display:none; background:none; border:0; cursor:pointer; padding:8px}
+.nav-toggle span{display:block; width:22px; height:2px; background:var(--ink); margin:4px 0; transition:.25s}
+
+/* ---------- HERO ---------- */
+.hero{position:relative; padding:96px 0 84px; overflow:hidden}
+.hero-grid{
+  position:absolute; inset:0; z-index:0; opacity:.5;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:46px 46px;
+  -webkit-mask-image:radial-gradient(ellipse 80% 70% at 70% 20%,#000 0%,transparent 75%);
+          mask-image:radial-gradient(ellipse 80% 70% at 70% 20%,#000 0%,transparent 75%);
+}
+.hero-line{position:absolute; top:0; right:0; width:60%; height:100%; z-index:0; opacity:.9; pointer-events:none}
+.hero-inner{position:relative; z-index:2; max-width:780px}
+.hero h1{
+  font-family:var(--font-display); font-weight:700; letter-spacing:-.03em;
+  font-size:clamp(2.7rem,8vw,5.2rem); line-height:1.02; margin:18px 0 6px;
+}
+.hero .role{
+  font-family:var(--font-display); font-weight:500; color:var(--accent);
+  font-size:clamp(1.15rem,3.2vw,1.6rem); margin-bottom:22px;
+}
+.hero p.lead{font-size:clamp(1.02rem,2vw,1.18rem); color:var(--ink-soft); max-width:620px; margin-bottom:32px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:12px}
+.hero-meta{margin-top:30px; display:flex; flex-wrap:wrap; gap:10px 26px; font-family:var(--font-mono); font-size:.78rem; color:var(--muted)}
+.hero-meta span{display:inline-flex; align-items:center; gap:8px}
+.dot{width:6px; height:6px; border-radius:50%; background:var(--accent)}
+
+/* ---------- RESULTS (signature band) ---------- */
+.results{background:var(--ink); color:var(--on-dark); position:relative; padding:64px 0 70px; overflow:hidden}
+.results::before{
+  content:""; position:absolute; inset:0; opacity:.45;
+  background-image:linear-gradient(var(--dark-line) 1px,transparent 1px);
+  background-size:100% 56px;
+}
+.results .wrap{position:relative; z-index:2}
+.results .eyebrow{color:var(--accent-bright)}
+.results h2{font-family:var(--font-display); font-weight:600; font-size:clamp(1.5rem,3.5vw,2.1rem); margin:12px 0 8px; letter-spacing:-.02em}
+.results .sub{color:var(--on-dark-soft); font-size:.95rem; max-width:620px; margin-bottom:38px}
+.metrics{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--dark-line); border:1px solid var(--dark-line); border-radius:14px; overflow:hidden}
+.metric{background:var(--ink); padding:28px 24px}
+.metric .num{font-family:var(--font-mono); font-weight:700; font-size:clamp(1.9rem,4.5vw,2.7rem); letter-spacing:-.02em; color:#fff; display:flex; align-items:baseline; gap:6px}
+.metric .num .up{color:var(--accent-bright); font-size:.7em}
+.metric .lbl{margin-top:6px; font-size:.95rem; color:var(--on-dark)}
+.metric .src{margin-top:4px; font-family:var(--font-mono); font-size:.7rem; color:var(--on-dark-soft); letter-spacing:.04em}
+
+/* ---------- SECTION SHELL ---------- */
+.section{padding:84px 0}
+.section-alt{background:var(--bg-alt); border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
+.section h2.title{font-family:var(--font-display); font-weight:600; letter-spacing:-.02em; font-size:clamp(1.7rem,4vw,2.4rem); margin:10px 0 0}
+
+/* ---------- ABOUT ---------- */
+.about-grid{display:grid; grid-template-columns:1.6fr 1fr; gap:54px; margin-top:36px}
+.about-body p{color:var(--ink-soft); font-size:1.05rem; margin-bottom:18px}
+.about-body strong{color:var(--ink); font-weight:600}
+.facts{border:1px solid var(--line-strong); border-radius:14px; padding:8px 22px; background:var(--bg); height:fit-content}
+.fact{padding:18px 0; border-bottom:1px solid var(--line)}
+.fact:last-child{border-bottom:0}
+.fact .k{font-family:var(--font-mono); font-size:.7rem; letter-spacing:.14em; text-transform:uppercase; color:var(--muted)}
+.fact .v{margin-top:5px; font-weight:500; color:var(--ink)}
+
+/* ---------- EXPERIENCE ---------- */
+.timeline{margin-top:44px; border-left:2px solid var(--line-strong); padding-left:0}
+.job{position:relative; padding:0 0 44px 34px}
+.job:last-child{padding-bottom:0}
+.job::before{content:""; position:absolute; left:-7px; top:6px; width:12px; height:12px; border-radius:50%; background:var(--bg); border:2.5px solid var(--accent)}
+.job.current::before{background:var(--accent)}
+.job-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px}
+.job-role{font-family:var(--font-display); font-weight:600; font-size:1.18rem; color:var(--ink)}
+.job-co{color:var(--accent); font-weight:600; font-size:1.02rem}
+.job-meta{font-family:var(--font-mono); font-size:.74rem; color:var(--muted); margin:4px 0 12px}
+.badge{font-family:var(--font-mono); font-size:.62rem; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); border:1px solid var(--accent); border-radius:30px; padding:2px 9px; vertical-align:middle}
+.job ul{list-style:none; display:flex; flex-direction:column; gap:8px}
+.job li{position:relative; padding-left:18px; color:var(--ink-soft); font-size:.97rem}
+.job li::before{content:""; position:absolute; left:0; top:10px; width:5px; height:5px; border-radius:50%; background:var(--line-strong)}
+.job .client{margin-top:14px; padding:14px 16px; background:var(--bg-alt); border:1px solid var(--line); border-radius:10px; font-size:.92rem; color:var(--ink-soft)}
+.job .client b{color:var(--ink); font-weight:600}
+
+/* ---------- SKILLS ---------- */
+.skill-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:28px; margin-top:40px}
+.skill-group h3{font-family:var(--font-mono); font-size:.74rem; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-bottom:14px}
+.chips{display:flex; flex-wrap:wrap; gap:8px}
+.chip{font-size:.86rem; font-weight:500; color:var(--ink); background:var(--bg); border:1px solid var(--line-strong); border-radius:8px; padding:7px 13px}
+.section-alt .chip{background:#fff}
+
+/* ---------- CARDS (certs + edu) ---------- */
+.two-col{display:grid; grid-template-columns:1fr 1fr; gap:48px; margin-top:40px}
+.col h3{font-family:var(--font-display); font-weight:600; font-size:1.25rem; margin-bottom:20px}
+.cert{display:flex; gap:14px; padding:15px 0; border-bottom:1px solid var(--line)}
+.cert:last-child{border-bottom:0}
+.cert .mark{font-family:var(--font-mono); color:var(--accent); font-weight:700; font-size:.9rem; flex-shrink:0; padding-top:1px}
+.cert .ct{font-weight:600; color:var(--ink)}
+.cert .cs{font-size:.85rem; color:var(--muted)}
+.edu-card{border:1px solid var(--line-strong); border-radius:14px; padding:24px; background:var(--bg)}
+.section-alt .edu-card{background:#fff}
+.edu-card .deg{font-family:var(--font-display); font-weight:600; font-size:1.1rem}
+.edu-card .inst{color:var(--ink-soft); margin-top:6px}
+.edu-card .yr{font-family:var(--font-mono); font-size:.78rem; color:var(--muted); margin-top:8px}
+
+/* ---------- CONTACT ---------- */
+.contact{background:var(--ink); color:var(--on-dark); padding:86px 0}
+.contact .eyebrow{color:var(--accent-bright)}
+.contact h2{font-family:var(--font-display); font-weight:600; font-size:clamp(2rem,5vw,3rem); letter-spacing:-.02em; margin:14px 0 12px; max-width:620px}
+.contact p{color:var(--on-dark-soft); max-width:520px; margin-bottom:32px}
+.contact-actions{display:flex; flex-wrap:wrap; gap:12px}
+.btn-light{background:#fff; color:var(--ink)}
+.btn-light:hover{background:#f0f0f0}
+.btn-outline{background:transparent; color:var(--on-dark); border-color:var(--dark-line)}
+.btn-outline:hover{border-color:var(--on-dark)}
+.contact-detail{margin-top:34px; display:flex; flex-wrap:wrap; gap:8px 28px; font-family:var(--font-mono); font-size:.82rem; color:var(--on-dark-soft)}
+.contact-detail a:hover{color:var(--accent-bright)}
+
+/* ---------- FOOTER ---------- */
+footer{background:#0a1626; color:var(--on-dark-soft); padding:26px 0; font-size:.82rem; border-top:1px solid var(--dark-line)}
+.foot-inner{display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; align-items:center}
+.foot-inner .brand{color:#fff}
+
+/* ---------- REVEAL (progressive enhancement: hidden only when JS is on) ---------- */
+.js .reveal{opacity:0; transform:translateY(22px); transition:opacity .6s ease, transform .6s ease}
+.js .reveal.in{opacity:1; transform:none}
+
+/* ---------- FOCUS ---------- */
+a:focus-visible,.btn:focus-visible,button:focus-visible{outline:2.5px solid var(--accent); outline-offset:3px; border-radius:6px}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width:860px){
+  .nav-links{
+    position:fixed; inset:66px 0 auto 0; background:var(--bg); flex-direction:column;
+    align-items:flex-start; gap:0; padding:8px 28px 22px; border-bottom:1px solid var(--line);
+    transform:translateY(-130%); transition:transform .3s ease; box-shadow:0 18px 30px rgba(14,30,51,.08);
+  }
+  .nav-links.open{transform:none}
+  .nav-links a{width:100%; padding:13px 0; border-bottom:1px solid var(--line); font-size:1rem}
+  .nav-links .btn{margin-top:14px; width:100%; justify-content:center}
+  .nav-toggle{display:block}
+  .nav-toggle.x span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+  .nav-toggle.x span:nth-child(2){opacity:0}
+  .nav-toggle.x span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+  .about-grid{grid-template-columns:1fr; gap:32px}
+  .skill-grid{grid-template-columns:1fr}
+  .two-col{grid-template-columns:1fr; gap:36px}
+  .metrics{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:480px){
+  .wrap{padding:0 20px}
+  .metrics{grid-template-columns:1fr}
+  .hero{padding:70px 0 60px}
+  .section{padding:64px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto !important}
+  .js .reveal{opacity:1; transform:none; transition:none}
+  .btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand">apoorv<b>.</b>chaudhary</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#results">Results</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="Apoorv_Chaudhary_CV.pdf" class="btn btn-accent btn-sm" download>Download CV</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-grid"></div>
+  <svg class="hero-line" viewBox="0 0 600 400" preserveAspectRatio="none" aria-hidden="true">
+    <polyline points="0,360 90,330 180,300 270,250 360,210 450,130 540,80 600,40"
+      fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="600" cy="40" r="5" fill="#10B981"/>
+  </svg>
+  <div class="wrap hero-inner">
+    <span class="eyebrow">SEO &amp; Organic Growth · New Delhi, India</span>
+    <h1>Apoorv Chaudhary</h1>
+    <div class="role">SEO &amp; Organic Growth Manager</div>
+    <p class="lead">I help SaaS, IT services, and B2B companies grow organic traffic and search visibility — with technical SEO, content strategy, and a focus on measurable results. Right now I'm going deeper into AI search (AEO/GEO).</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary">Get in touch</a>
+      <a href="Apoorv_Chaudhary_CV.pdf" class="btn btn-ghost" download>Download CV</a>
+      <a href="https://www.linkedin.com/in/apoorvchaudhary" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <div class="hero-meta">
+      <span><i class="dot"></i> 6+ years in SEO</span>
+      <span><i class="dot"></i> SaaS · IT Services · B2B · Fintech</span>
+      <span><i class="dot"></i> Technical SEO · AEO/GEO</span>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section class="results" id="results">
+  <div class="wrap">
+    <span class="eyebrow">Selected results</span>
+    <h2 class="reveal">Growth I've delivered</h2>
+    <p class="sub reveal">A snapshot of outcomes from SEO programs I've owned. My strongest growth work was at Binmile.</p>
+    <div class="metrics reveal">
+      <div class="metric"><div class="num">3<span class="up">×</span></div><div class="lbl">Organic traffic growth</div><div class="src">Binmile</div></div>
+      <div class="metric"><div class="num">4<span class="up">×</span></div><div class="lbl">Blog traffic growth</div><div class="src">Binmile</div></div>
+      <div class="metric"><div class="num">18<span class="up">→40</span></div><div class="lbl">Domain Authority</div><div class="src">Binmile</div></div>
+      <div class="metric"><div class="num"><span class="up">+</span>40%</div><div class="lbl">Indexed pages</div><div class="src">Binmile</div></div>
+      <div class="metric"><div class="num"><span class="up">−</span>35%</div><div class="lbl">Page load time</div><div class="src">Binmile</div></div>
+      <div class="metric"><div class="num"><span class="up">−</span>18%</div><div class="lbl">Bounce rate</div><div class="src">Binmile</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="wrap">
+    <span class="eyebrow">About</span>
+    <h2 class="title reveal">SEO is what I do best</h2>
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <p>I'm a Digital Marketing Manager who specializes in SEO and organic growth. Over the past 6+ years, I've helped SaaS, IT services, and B2B companies improve their search visibility, traffic, and content performance.</p>
+        <p>My core strength is the technical and strategic side of search — <strong>SEO audits, Core Web Vitals, schema and structured data, site architecture, keyword research, search intent mapping, content strategy, and link building</strong>. I work closely with developers, content teams, and leadership to turn SEO plans into shipped results.</p>
+        <p>At Binmile, I scaled organic traffic 3X and lifted Domain Authority from 18 to 40. I also worked directly with a UK-based financial services client, which gave me hands-on international SEO experience. Today I lead SEO and a small content team at an IT services company, and I'm building practical experience in <strong>AI search optimization (AEO/GEO)</strong> and Google AI Overviews — because I think that's where organic visibility is heading next.</p>
+      </div>
+      <aside class="facts reveal">
+        <div class="fact"><div class="k">Experience</div><div class="v">6+ years in SEO</div></div>
+        <div class="fact"><div class="k">Industries</div><div class="v">SaaS · IT Services · B2B · Fintech</div></div>
+        <div class="fact"><div class="k">Focus</div><div class="v">Technical SEO · Organic Growth · AEO/GEO</div></div>
+        <div class="fact"><div class="k">Core tools</div><div class="v">GA4 · Search Console · Ahrefs · SEMrush</div></div>
+        <div class="fact"><div class="k">Based in</div><div class="v">New Delhi, India</div></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section section-alt" id="experience">
+  <div class="wrap">
+    <span class="eyebrow">Experience</span>
+    <h2 class="title reveal">Where I've worked</h2>
+    <div class="timeline">
+
+      <div class="job current reveal">
+        <div class="job-head">
+          <span class="job-role">Manager, Digital Marketing</span>
+          <span class="job-co">Imenso Software</span>
+          <span class="badge">Current</span>
+        </div>
+        <div class="job-meta">Nov 2025 – Present · Gurugram, India · IT Services</div>
+        <ul>
+          <li>Lead SEO and a four-person content &amp; design team for an IT services company.</li>
+          <li>Set the SEO roadmap and run audits — keyword clustering, search intent mapping, and internal linking.</li>
+          <li>Define SEO requirements for an ongoing website redevelopment and migration, working with development, UX, and content teams.</li>
+          <li>Provide technical SEO recommendations: Core Web Vitals, schema markup, crawlability, and indexation.</li>
+          <li>Build AEO/GEO and structured-data readiness to prepare the site for AI-driven search results.</li>
+        </ul>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-head">
+          <span class="job-role">Senior Executive, Digital Marketing</span>
+          <span class="job-co">Binmile Technologies</span>
+        </div>
+        <div class="job-meta">Dec 2022 – Nov 2025 · Noida, India · SaaS / IT Services / B2B</div>
+        <ul>
+          <li>Scaled organic traffic 3X and blog traffic 4X through SEO-led content strategy and technical optimization.</li>
+          <li>Increased Domain Authority from 18 to 40 through targeted link-building and digital PR.</li>
+          <li>Improved indexed pages by 40% and reduced page load time by 35% with the development team.</li>
+          <li>Reduced bounce rate by 18% through better content, internal linking, and page experience.</li>
+        </ul>
+        <div class="client"><b>Client work — Acuity Analytics (London, UK):</b> Dedicated SEO and content strategist for a UK-based financial services client. Led keyword research, content planning, and on-page optimization; published 25+ articles across ESG, compliance, and financial services; maintained 90%+ on-time delivery.</div>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-head">
+          <span class="job-role">SEO Executive</span>
+          <span class="job-co">Halogig</span>
+        </div>
+        <div class="job-meta">Dec 2021 – Aug 2022 · Noida, India</div>
+        <ul>
+          <li>Increased organic traffic by 35% through keyword mapping, content optimization, and on-page SEO.</li>
+          <li>Improved market share by 15% through competitor analysis and content-gap assessments.</li>
+          <li>Mentored junior SEO team members and helped the team meet monthly performance targets.</li>
+        </ul>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-head">
+          <span class="job-role">Digital Marketing Executive</span>
+          <span class="job-co">Afinoz Digitalizing Finance</span>
+        </div>
+        <div class="job-meta">Oct 2020 – Nov 2021 · Noida, India · Fintech</div>
+        <ul>
+          <li>Increased lead generation by 15% through SEO-driven content and long-tail keyword targeting.</li>
+          <li>Improved keyword rankings by 25% through content optimization and performance monitoring.</li>
+        </ul>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-head">
+          <span class="job-role">SEO Executive</span>
+          <span class="job-co">Kryptora</span>
+        </div>
+        <div class="job-meta">Oct 2019 – Sep 2020 · Noida, India</div>
+        <ul>
+          <li>Improved keyword rankings by 20% through off-page SEO, outreach, and link acquisition.</li>
+          <li>Increased click-through rate by 12% through keyword research and search-intent-aligned content.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <span class="eyebrow">Skills</span>
+    <h2 class="title reveal">What I bring</h2>
+    <div class="skill-grid">
+      <div class="skill-group reveal">
+        <h3>SEO</h3>
+        <div class="chips">
+          <span class="chip">Technical SEO</span><span class="chip">On-Page SEO</span><span class="chip">Off-Page SEO</span>
+          <span class="chip">SEO Audits</span><span class="chip">Site Architecture</span><span class="chip">Core Web Vitals</span>
+          <span class="chip">Crawl &amp; Indexation</span><span class="chip">Link Building</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h3>Content &amp; Strategy</h3>
+        <div class="chips">
+          <span class="chip">Content Strategy</span><span class="chip">Search Intent Mapping</span><span class="chip">Keyword Research</span>
+          <span class="chip">Internal Linking</span><span class="chip">Competitor Analysis</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h3>AI Search</h3>
+        <div class="chips">
+          <span class="chip">Answer Engine Optimization (AEO)</span><span class="chip">Generative Engine Optimization (GEO)</span>
+          <span class="chip">Google AI Overviews</span><span class="chip">Schema &amp; Structured Data</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h3>Analytics &amp; Tools</h3>
+        <div class="chips">
+          <span class="chip">GA4</span><span class="chip">Google Search Console</span><span class="chip">Ahrefs</span>
+          <span class="chip">SEMrush</span><span class="chip">Moz</span><span class="chip">Screaming Frog</span><span class="chip">Looker Studio</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h3>Also experienced in</h3>
+        <div class="chips">
+          <span class="chip">Google Ads / PPC</span><span class="chip">Meta Ads</span><span class="chip">Conversion Rate Optimization</span><span class="chip">Team Leadership</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTS + EDUCATION -->
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="two-col">
+      <div class="col reveal">
+        <span class="eyebrow">Credentials</span>
+        <h3 style="margin-top:10px">Certifications</h3>
+        <div class="cert"><span class="mark">✓</span><div><div class="ct">Dream SEO Masterclass</div><div class="cs">HQ Digital · Apr 2025</div></div></div>
+        <div class="cert"><span class="mark">✓</span><div><div class="ct">SEO II</div><div class="cs">HubSpot Academy</div></div></div>
+        <div class="cert"><span class="mark">✓</span><div><div class="ct">The Complete Digital Marketing</div><div class="cs">Udemy</div></div></div>
+        <div class="cert"><span class="mark">✓</span><div><div class="ct">Certificate of Appreciation</div><div class="cs">For consistently exceeding quarterly objectives</div></div></div>
+      </div>
+      <div class="col reveal">
+        <span class="eyebrow">Education</span>
+        <h3 style="margin-top:10px">Academic background</h3>
+        <div class="edu-card">
+          <div class="deg">Bachelor of Technology — Civil Engineering</div>
+          <div class="inst">Krishna Engineering College, Ghaziabad</div>
+          <div class="yr">2013 – 2017</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <span class="eyebrow">Let's talk</span>
+    <h2 class="reveal">Looking for someone to own SEO and organic growth?</h2>
+    <p class="reveal">I'm open to SEO Manager, Organic Growth Manager, and SEO-led Digital Marketing roles. If that sounds like a fit — or you just want to talk about search — get in touch.</p>
+    <div class="contact-actions reveal">
+      <a href="mailto:apoorv6000@gmail.com" class="btn btn-light">Email me</a>
+      <a href="Apoorv_Chaudhary_CV.pdf" class="btn btn-outline" download>Download CV</a>
+      <a href="https://www.linkedin.com/in/apoorvchaudhary" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <div class="contact-detail">
+      <span>✉ <a href="mailto:apoorv6000@gmail.com">apoorv6000@gmail.com</a></span>
+      <span>☎ <a href="tel:+919873883553">+91-9873883553</a></span>
+      <span>↗ <a href="https://www.linkedin.com/in/apoorvchaudhary" target="_blank" rel="noopener">linkedin.com/in/apoorvchaudhary</a></span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <span class="brand">apoorv<b style="color:var(--accent-bright)">.</b>chaudhary</span>
+    <span>© <span id="yr"></span> Apoorv Chaudhary · SEO &amp; Organic Growth Manager</span>
+  </div>
+</footer>
+
+<script>
+// Mobile nav
+const toggle=document.getElementById('navToggle');
+const links=document.getElementById('navLinks');
+toggle.addEventListener('click',()=>{
+  const open=links.classList.toggle('open');
+  toggle.classList.toggle('x',open);
+  toggle.setAttribute('aria-expanded',open);
+});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+  links.classList.remove('open'); toggle.classList.remove('x'); toggle.setAttribute('aria-expanded',false);
+}));
+
+// Scroll reveal
+const io=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+},{threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// Year
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
